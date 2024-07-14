@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+
+<body class="bg-black">
+    
+  <div class="loading">
+    <span class="loader"></span>
+  </div>
+  <div class="container p-4" id="search_container">
+     
+  </div>
+
+  <main class="meals">
+    <div class="container p-3">
+      <div class="row" id="row-data">
+
+      </div>
+    </div>
+  </main>
+  <aside class="d-flex position-fixed top-0">
+    <div class="aside-content bg-black  py-3 d-flex justify-content-between flex-column " id="aside_content">
+
+
+      <ul class="d-flex flex-column  fs-5">
+        <li id="search">Search</li>
+        <li id="categories">Categories</li>
+        <li id="arae">Area</li>
+        <li id="ingredients">Ingredients</li>
+        <li id="contact">Contact us</li>
+      </ul>
+
+      <footer class="text-center">
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <p>Copyright Â© 2019 All Rights Reserved.</p>
+      </footer>
+
+    </div>
+    <div class=" side-bar d-flex flex-column bg-white justify-content-between p2-3">
+      <div class="logo p-2 mx-auto">
+        <img src="./imgs/logo.png" alt="logo">
+      </div>
+      <div class="side-icon p-2 mx-auto">
+        <i class="fas fa-bars menu text-black " id="open_icon"></i>
+
+      </div>
+
+      <div class="bottom-icons p-2 mx-auto text-black">
+        <i class="fa-solid fa-globe "></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+    </div>
+  </aside>
+ 
+  <div class="container"  id="contact_container" >
+   
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
